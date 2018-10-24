@@ -10,7 +10,7 @@ entries:
       name: Devdatta Kulkarni
     name: postgres-crd-v2-chart
     urls:
-    - https://github.com/cloud-ark/operatorcharts/postgres-crd-v2-chart-0.0.2.tgz
+    - https://github.com/cloud-ark/operatorcharts/blob/master/postgres-crd-v2-chart-0.0.2.tgz
     version: 0.0.2
   mysql-operator:
   - apiVersion: v1
@@ -22,7 +22,7 @@ entries:
       name: Owain Lewis
     name: mysql-operator
     urls:
-    - https://github.com/cloud-ark/operatorcharts/mysql-operator-0.1.0.tgz
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v1
     created: 2018-06-19T16:30:56.670141429-05:00
@@ -33,6 +33,6 @@ entries:
       name: Owain Lewis
     name: mysql-operator
     urls:
-    - https://github.com/cloud-ark/operatorcharts/mysql-operator-0.2.0.tgz
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.2.0.tgz
     version: 0.2.0
 generated: 2018-06-19T16:22:56.489366627-05:00
