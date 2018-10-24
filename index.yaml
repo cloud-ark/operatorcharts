@@ -10,7 +10,7 @@ entries:
       name: Devdatta Kulkarni
     name: postgres-crd-v2-chart
     urls:
-    - https://github.com/cloud-ark/operatorcharts/blob/master/postgres-crd-v2-chart-0.0.2.tgz
+    - https://github.com/cloud-ark/operatorcharts/blob/master/postgres-crd-v2-chart-0.0.2.tar.gz
     version: 0.0.2
   mysql-operator:
   - apiVersion: v1
