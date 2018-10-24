@@ -62,7 +62,7 @@ Include you Operator in this repository
 
 4. Update index.yaml to include information about your chart's tgz file
 
-   - ./helm repo index --merge index.yaml --url http:///charts/ ./
+   - helm repo index --merge index.yaml --url https://github.com/cloud-ark/operatorcharts/blob/master ./
 
 5. Send a Pull Request to get your Operator chart included
    in this repository
