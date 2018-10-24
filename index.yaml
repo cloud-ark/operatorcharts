@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  postgres-crd-v2-chart:
+  - apiVersion: v1
+    created: 2018-06-19T16:30:56.670141429-05:00
+    description: A Helm chart for deploying CloudARK Postgres Operator
+    digest: c916026bed6a5ed8b0ceb79d98b27fb4
+    maintainers:
+    - email: devdatta@cloudark.io
+      name: Devdatta Kulkarni
+    name: postgres-crd-v2-chart
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/postgres-crd-v2-chart-0.0.2.tgz
+    version: 0.0.2
+  mysql-operator:
+  - apiVersion: v1
+    created: 2018-06-19T16:30:56.670141429-05:00
+    description: A Helm chart for deploying the Oracle MySQL Operator
+    digest: 073d1a20eb5ae7b3b3a277253734eee3
+    maintainers:
+    - email: owain.lewis@oracle.com
+      name: Owain Lewis
+    name: mysql-operator
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/mysql-operator-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    created: 2018-06-19T16:30:56.670141429-05:00
+    description: A Helm chart for deploying the Oracle MySQL Operator
+    digest: e4f40e37fbaf00ccfbf6f1ba82fb06b0
+    maintainers:
+    - email: owain.lewis@oracle.com
+      name: Owain Lewis
+    name: mysql-operator
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/mysql-operator-0.2.0.tgz
+    version: 0.2.0
+generated: 2018-06-19T16:22:56.489366627-05:00
