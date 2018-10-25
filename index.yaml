@@ -1,10 +1,20 @@
 apiVersion: v1
 entries:
+  moodle-operator-chart:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-10-24T19:02:34.274162756-05:00
+    description: A Helm chart for Moodle Operator
+    digest: 0bfcc7f701950e8c00b7cfb6172155b6e6a07c4eb661c2349006a13d0d7a44e2
+    name: moodle-operator-chart
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.0.1.tgz
+    version: 0.0.1
   mysql-operator-chart:
   - apiVersion: v1
-    created: 2018-10-24T15:14:58.600706214-05:00
+    created: 2018-10-24T19:02:34.275782386-05:00
     description: A Helm chart for deploying the Oracle MySQL Operator
-    digest: 7f15fac4d1c2386b2ffe3a2a7b8489fc9f35e3df092d710de0cd9547e33bb103
+    digest: c83736abe571f135c8d5b1dfe2ee896849b65d679ad0cc182cd984377e2ea570
     maintainers:
     - email: owain.lewis@oracle.com
       name: Owain Lewis
@@ -15,11 +25,11 @@ entries:
   postgres-crd-v2-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-10-24T15:14:58.601218667-05:00
+    created: 2018-10-24T19:02:34.276675339-05:00
     description: A Helm chart for Postgres Operator
     digest: 26e865d64c5b4886938e9b843c548e3549c8c80f098ce5405a6e7d956f84b045
     name: postgres-crd-v2-chart
     urls:
     - https://github.com/cloud-ark/operatorcharts/blob/master/postgres-crd-v2-chart-0.0.2.tgz
     version: 0.0.2
-generated: 2018-10-24T15:14:58.599693104-05:00
+generated: 2018-10-24T19:02:34.273117087-05:00
