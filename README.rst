@@ -28,7 +28,7 @@ Available Operators
 
 3. mysql-operator-chart (Oracle)
 
-4. postgres-crd-v2
+4. postgres-crd-v2 (CloudARK)
 
    - Version: 0.0.3 -> PaC annotations
 
