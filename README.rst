@@ -4,45 +4,49 @@ Operator Charts
 
 Repository of Operator Helm charts curated for discoverability and interoperability.
 
-Each Helm chart contains CRD YAML annotated with `Platform-as-Code annotations`__
-
-.. _pac: https://github.com/cloud-ark/kubeplus#platform-as-code-annotations
-
-__ pac_
+Each Helm chart contains CRD YAML annotated with Platform-as-Code annotations (https://github.com/cloud-ark/kubeplus#platform-as-code-annotations)
 
 
 Available Operators
 --------------------
 
 1. moodle-operator-chart (CloudARK)
+
    - Version: 0.4.7 -> Contains SSL support for Moodle Instances
+
    - Version: 0.4.6 -> Domain Name support
+
    - Versoin: 0.4.4 -> Works with MySQL Custom Resource Instances
+
    - Versions < 0.4.4 -> Initial versions (legacy)
 
 2. mysql-operator (PressLabs)
+
    - Version: 0.2.5-1 -> PaC annotations
+
    - Versions < 0.2.5-1 -> Legacy version
 
 3. mysql-operator-chart (Oracle)
 
 4. postgres-crd-v2
+
    - Version: 0.0.3 -> PaC annotations
+
    - Versions < 0.0.3 -> Legacy version
 
 5. stash-operator (Appscode Stash)
+
    - Version: 0.8.4 -> PaC annotations
+
    - Versions < 0.8.4 -> Legacy version
 
 
 Best practice Operator Development Guidelines
 ----------------------------------------------
 
-Checkout `Operator Guidelines`__ when developing your Operator
+Checkout following Operator developing guidelines when developing your Operator
 
-.. _guidelines: https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
-
-__ guidelines_
+https://github.com/cloud-ark/kubeplus/blob/master/Guidelines.md
 
 
 
@@ -66,20 +70,15 @@ Include you Operator in this repository
       - Check the following as an example of helm chart directory:
 	https://github.com/cloud-ark/kubeplus-operators/tree/master/moodle/moodle-operator-chart
 
-   b] Annotate your CRD definition with `Platform-as-Code annotations`__. Check https://github.com/cloud-ark/kubeplus
+   b] Annotate your CRD definition with Platform-as-Code annotations. Check https://github.com/cloud-ark/kubeplus
       for what PaC annotations are available for you to use.
-
-.. _pac1: https://github.com/cloud-ark/kubeplus#platform-as-code-annotations
-
-__ pac1_
 
       - Create the required ConfigMaps that go along with your PaC annotations.
 
       - Check Moodle CRD definition for example of PaC annotations:
 
-.. _moodlecrd: https://github.com/cloud-ark/kubeplus-operators/blob/master/moodle/moodle-operator-chart/templates/deployment.yaml#L17
+https://github.com/cloud-ark/kubeplus-operators/blob/master/moodle/moodle-operator-chart/templates/deployment.yaml#L17
 
-__ moodlecrd_
 
    c] Create the helm chart
 
