@@ -12,6 +12,10 @@ Available Operators
 
 1. moodle-operator-chart (CloudARK)
 
+    Moodle Operator supports creating multiple Moodle instances, plugin installation, DNS, SSL
+    
+    https://github.com/cloud-ark/kubeplus-operators/tree/master/moodle
+
    - Version: 0.4.7 -> Contains SSL support for Moodle Instances
 
    - Version: 0.4.6 -> Domain Name support
@@ -22,19 +26,29 @@ Available Operators
 
 2. mysql-operator (PressLabs)
 
+    MySQL Operator supports creating, backing up, restoring MySQL clusters.
+
+    https://github.com/presslabs/mysql-operator
+
    - Version: 0.2.5-1 -> PaC annotations
 
    - Versions < 0.2.5-1 -> Legacy version
 
 3. mysql-operator-chart (Oracle)
 
+   https://github.com/oracle/mysql-operator
+
 4. postgres-crd-v2 (CloudARK)
+
+   https://github.com/cloud-ark/kubeplus/tree/master/postgres-crd-v2
 
    - Version: 0.0.3 -> PaC annotations
 
    - Versions < 0.0.3 -> Legacy version
 
 5. stash-operator (Appscode Stash)
+
+   https://github.com/stashed/stash
 
    - Version: 0.8.4 -> PaC annotations
 
