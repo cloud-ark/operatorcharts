@@ -2,9 +2,37 @@
 Operator Charts
 ====================
 
-Repository of Helm charts for Operators. 
+Repository of Operator Helm charts curated for discoverability and interoperability.
+
+Each Helm chart contains CRD YAML annotated with `Platform-as-Code annotations`__
+
+.. _pac: https://github.com/cloud-ark/kubeplus#platform-as-code-annotations
+
+__ pac_
 
 
+Available Operators
+--------------------
+
+1. moodle-operator-chart (CloudARK)
+   - Version: 0.4.7 -> Contains SSL support for Moodle Instances
+   - Version: 0.4.6 -> Domain Name support
+   - Versoin: 0.4.4 -> Works with MySQL Custom Resource Instances
+   - Versions < 0.4.4 -> Initial versions (legacy)
+
+2. mysql-operator (PressLabs)
+   - Version: 0.2.5-1 -> PaC annotations
+   - Versions < 0.2.5-1 -> Legacy version
+
+3. mysql-operator-chart (Oracle)
+
+4. postgres-crd-v2
+   - Version: 0.0.3 -> PaC annotations
+   - Versions < 0.0.3 -> Legacy version
+
+5. stash-operator (Appscode Stash)
+   - Version: 0.8.4 -> PaC annotations
+   - Versions < 0.8.4 -> Legacy version
 
 
 Best practice Operator Development Guidelines
@@ -21,18 +49,13 @@ __ guidelines_
 Include you Operator in this repository
 ----------------------------------------
 
-0. Install Helm
+1. Install Helm
 
-
-1. Create Helm chart for your Operator
+2. Create Helm chart for your Operator
 
    This involves three steps:
 
-   a] Creating the helm chart directory and populating it with helm related artifacts
-
-      - Check the following as an example of helm chart directory:
-        
-        https://github.com/cloud-ark/kubeplus/tree/master/operator-manager/operator-manager-chart
+   a] Create the helm chart directory and populate it with helm related artifacts
 
       - Create a directory inside your operator source and name it: <name>-operator-chart
 
@@ -40,14 +63,25 @@ Include you Operator in this repository
 
       - Inside template folder define all the YAML files required for deploying your Chart
 
-   b] Generating OpenAPI Spec for the custom resources managed by your Operator
+      - Check the following as an example of helm chart directory:
+	https://github.com/cloud-ark/kubeplus-operators/tree/master/moodle/moodle-operator-chart
 
-      - Go inside your helm chart directory and then follow the steps from:
+   b] Annotate your CRD definition with `Platform-as-Code annotations`__. Check https://github.com/cloud-ark/kubeplus
+      for what PaC annotations are available for you to use.
 
-        https://github.com/cloud-ark/kubeplus/tree/master/openapi-spec-generator
-         
+.. _pac1: https://github.com/cloud-ark/kubeplus#platform-as-code-annotations
 
-   c] Creating the helm chart
+__ pac1_
+
+      - Create the required ConfigMaps that go along with your PaC annotations.
+
+      - Check Moodle CRD definition for example of PaC annotations:
+
+.. _moodlecrd: https://github.com/cloud-ark/kubeplus-operators/blob/master/moodle/moodle-operator-chart/templates/deployment.yaml#L17
+
+__ moodlecrd_
+
+   c] Create the helm chart
 
       - From the parent directory of the helm chart directory, execute following command:
 
@@ -56,15 +90,15 @@ Include you Operator in this repository
         - This should create <name>-operator-chart.tgz file
 
 
-2. Fork this repository
+3. Fork this repository
 
-3. Add the helm chart tgz file to the repository
+4. Add the helm chart tgz file to the repository
 
-4. Update index.yaml to include information about your chart's tgz file
+5. Update index.yaml to include information about your chart's tgz file
 
    - helm repo index --merge index.yaml --url https://github.com/cloud-ark/operatorcharts/blob/master ./
 
-5. Send a Pull Request to get your Operator chart included
+6. Send a Pull Request to get your Operator chart included
    in this repository
 
 
