@@ -1,18 +1,334 @@
 apiVersion: v1
 entries:
-  moodle-operator-chart:
+  elastic-operator-chart:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5270324-05:00"
+    description: A Helm chart for Elastic Operator from Elastic
+    digest: 61106cabc15cb31610f7c64d88517259b47c578f77f3f291361db65bf42d9862
+    name: elastic-operator-chart
+    sources:
+    - https://download.elastic.co/downloads/eck/0.8.1/all-in-one.yaml
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/elastic-operator-chart-0.8.2.tgz
+    version: 0.8.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-10-24T19:02:34.274162756-05:00
+    created: "2021-02-02T01:19:42.5260321-05:00"
+    description: A Helm chart for Elastic Operator from Elastic
+    digest: 76931b6d576653690bd60a32bfc048084750a34d413ba3fcbb44321c7fb270ca
+    name: elastic-operator-chart
+    sources:
+    - https://download.elastic.co/downloads/eck/0.8.1/all-in-one.yaml
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/elastic-operator-chart-0.8.1.tgz
+    version: 0.8.1
+  mongodb:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-02-02T01:19:42.5270324-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 5434b75092470f6dd0fa9c6df8e63b4d7f3c9e52ec88c7ce4a914c105b331833
+    name: mongodb
+    type: application
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mongodb-0.1.0.tgz
+    version: 0.1.0
+  mongodb_tenant:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-02-02T01:19:42.5410313-05:00"
+    description: A Helm chart for Kubernetes
+    digest: bc2cca480b12cce7d93830e39a686f9a53454bdb80caef1bba1215d43a981c1c
+    name: mongodb_tenant
+    type: application
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mongodb_tenant-0.1.1.tgz
+    version: 0.1.1
+  moodle-operator-chart:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5460315-05:00"
     description: A Helm chart for Moodle Operator
-    digest: 0bfcc7f701950e8c00b7cfb6172155b6e6a07c4eb661c2349006a13d0d7a44e2
+    digest: bf89a69118231359c3449d6ea828f07dfeb5f1d9183e4dce2773061af9cb9ad5
     name: moodle-operator-chart
+    sources:
+    - tag 0.5.0
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5450313-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: 9bfe9a88db708a9cf3d13233e7afc712d49434a4ad713ea61f49c0c758250fb5
+    name: moodle-operator-chart
+    sources:
+    - tag 0.5.0
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5450313-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: 1e3dda526d1d014f04128f73a274e1a3861efaebfa871c0f04d742ca0aec5f3f
+    name: moodle-operator-chart
+    sources:
+    - tag 0.4.9
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.4.9.tgz
+    version: 0.4.9
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5450313-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: a72e57a3fc7d7c317ab14a8e1f8dbecebf9aee2aebc0d0384b5e8ad620293de2
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.4.7.tgz
+    version: 0.4.7
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5440313-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: 6c72b481793e475fc4779f0ab185b981d9d0d6afb0d109321c42d44887515291
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.4.6.tgz
+    version: 0.4.6
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5440313-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: c88c970cc1ed2671a3486ba763430bf12d31bfbb31d33daef7ab62c38c721b75
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.4.5.tgz
+    version: 0.4.5
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5440313-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: 65a8ca5ae4200e8ed2baed54b8a641e175a8c7efecae6d4f054d241c9bb4dffd
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.4.4.tgz
+    version: 0.4.4
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5430315-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: 2353dd9771d5154b7bcc9b907cde8686fb27aca163a454b8faac134dc3075bdb
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5430315-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: 42e824f171f19216684ab3f0fab6c8924ed3a426eab97a3e532e5471199bf333
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5430315-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: b776b5c2ac4abe4b02ab08ceb55ac2be228c36b47405e0600cecbc20c29116c2
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5420313-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: 6b4d489ce136b1c121dd005ad90988cd7305d0c775e96b372e9a2aaef9bf81d3
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5420313-05:00"
+    description: A Helm chart for Moodle Operator
+    digest: 7cfc3f6dca1dc7d6eab7b691589f8440ba12c90ee6dbfee13e636d74828583c2
+    name: moodle-operator-chart
+    sources:
+    - https://github.com/cloud-ark/kubeplus-operators/releases/tag/v1
     urls:
     - https://github.com/cloud-ark/operatorcharts/blob/master/moodle-operator-chart-0.0.1.tgz
     version: 0.0.1
+  mysql-operator:
+  - apiVersion: v1
+    appVersion: v0.2.5
+    created: "2021-02-02T01:19:42.5540646-05:00"
+    dependencies:
+    - name: orchestrator
+      repository: https://presslabs.github.io/charts/
+      version: 0.1.5
+    description: A Helm chart for mysql operator
+    digest: c67ba5c3ec9067c780c47a853f09c16faf890943e1554ca3734d72be7328e7fa
+    home: https://github.com/presslabs/mysql-operator
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - presslabs
+    name: mysql-operator
+    sources:
+    - https://github.com/presslabs/mysql-operator.git
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    appVersion: v0.2.5
+    created: "2021-02-02T01:19:42.5540646-05:00"
+    dependencies:
+    - name: orchestrator
+      repository: https://presslabs.github.io/charts/
+      version: 0.1.5
+    description: A Helm chart for mysql operator
+    digest: c8983b30d367f9d7600e90d34ebe24a2927bfdf8e992a2fb9b9cefb8e3d5f874
+    home: https://github.com/presslabs/mysql-operator
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - presslabs
+    name: mysql-operator
+    sources:
+    - https://github.com/presslabs/mysql-operator.git
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.2.5-6.tgz
+    version: 0.2.5-6
+  - apiVersion: v1
+    appVersion: v0.2.5
+    created: "2021-02-02T01:19:42.5530674-05:00"
+    dependencies:
+    - name: orchestrator
+      repository: https://presslabs.github.io/charts/
+      version: 0.1.5
+    description: A Helm chart for mysql operator
+    digest: 93c7401a03d88f83091f3db4c025ef5a468262d3dbfb74e71f58db8834c78f19
+    home: https://github.com/presslabs/mysql-operator
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - presslabs
+    name: mysql-operator
+    sources:
+    - https://github.com/presslabs/mysql-operator.git
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.2.5-5.tgz
+    version: 0.2.5-5
+  - apiVersion: v1
+    appVersion: v0.2.5
+    created: "2021-02-02T01:19:42.5520313-05:00"
+    dependencies:
+    - name: orchestrator
+      repository: https://presslabs.github.io/charts/
+      version: 0.1.5
+    description: A Helm chart for mysql operator
+    digest: 8ed8ad1d745670416e0284e56049bd1d94d2335d1f9fd960a8925db9eceb081f
+    home: https://github.com/presslabs/mysql-operator
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - presslabs
+    name: mysql-operator
+    sources:
+    - https://github.com/presslabs/mysql-operator.git
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.2.5-4.tgz
+    version: 0.2.5-4
+  - apiVersion: v1
+    appVersion: v0.2.5
+    created: "2021-02-02T01:19:42.55007-05:00"
+    dependencies:
+    - name: orchestrator
+      repository: https://presslabs.github.io/charts/
+      version: 0.1.5
+    description: A Helm chart for mysql operator
+    digest: 06e99bfbde4d3d49e87c965632d154dc806061c91de7806a52258dea17ab6f8e
+    home: https://github.com/presslabs/mysql-operator
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - presslabs
+    name: mysql-operator
+    sources:
+    - https://github.com/presslabs/mysql-operator.git
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.2.5-3.tgz
+    version: 0.2.5-3
+  - apiVersion: v1
+    appVersion: v0.2.5
+    created: "2021-02-02T01:19:42.5490336-05:00"
+    dependencies:
+    - name: orchestrator
+      repository: https://presslabs.github.io/charts/
+      version: 0.1.5
+    description: A Helm chart for mysql operator
+    digest: 245d2e206d07e75070507c5ddcf12a74bcfcd08d7b54ca6f5bd4005ce730507f
+    home: https://github.com/presslabs/mysql-operator
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - presslabs
+    name: mysql-operator
+    sources:
+    - https://github.com/presslabs/mysql-operator.git
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.2.5-2.tgz
+    version: 0.2.5-2
+  - apiVersion: v1
+    appVersion: v0.2.5
+    created: "2021-02-02T01:19:42.5470323-05:00"
+    dependencies:
+    - name: orchestrator
+      repository: https://presslabs.github.io/charts/
+      version: 0.1.5
+    description: A Helm chart for mysql operator
+    digest: 019583bbb2073cb6f080f31a336ee595cb491ad4eb710e76291d47407296a778
+    home: https://github.com/presslabs/mysql-operator
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - presslabs
+    name: mysql-operator
+    sources:
+    - https://github.com/presslabs/mysql-operator.git
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-0.2.5-1.tgz
+    version: 0.2.5-1
   mysql-operator-chart:
   - apiVersion: v1
-    created: 2018-10-24T19:02:34.275782386-05:00
+    created: "2021-02-02T01:19:42.5550624-05:00"
     description: A Helm chart for deploying the Oracle MySQL Operator
     digest: c83736abe571f135c8d5b1dfe2ee896849b65d679ad0cc182cd984377e2ea570
     maintainers:
@@ -22,14 +338,145 @@ entries:
     urls:
     - https://github.com/cloud-ark/operatorcharts/blob/master/mysql-operator-chart-0.2.1.tgz
     version: 0.2.1
+  mysqlcluster:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5560322-05:00"
+    description: A Helm chart for Kubernetes
+    digest: c1339671dd1065d250f52a61afd20154fa20c1306b5d22ab64f4f50841292138
+    name: mysqlcluster
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysqlcluster-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5560322-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 29ed58f2ad3d7fc534aef43635f389f591b234d8caf90a12f4f2c5859237850e
+    name: mysqlcluster
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysqlcluster-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5560322-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 094dfc30d626f461854104805143f6744dd39e5b7d48f02b9f45fb84856996d6
+    name: mysqlcluster
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysqlcluster-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5550624-05:00"
+    description: A Helm chart for Kubernetes
+    digest: da90b009ec55a11d6b07ee184782d4448387da868e2ebc999d3c9a3118780f0c
+    name: mysqlcluster
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysqlcluster-0.1.0.tgz
+    version: 0.1.0
+  mysqlcluster-stack:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5570323-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 6252c7aa11a3fbac2dfc8269dc696c350dc1d7696f167acc8599f3cd02a0f32e
+    name: mysqlcluster-stack
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/mysqlcluster-stack-0.0.1.tgz
+    version: 0.0.1
   postgres-crd-v2-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-10-24T19:02:34.276675339-05:00
+    created: "2021-02-02T01:19:42.5570323-05:00"
     description: A Helm chart for Postgres Operator
-    digest: 26e865d64c5b4886938e9b843c548e3549c8c80f098ce5405a6e7d956f84b045
+    digest: 695bc4d99199f340ce00c2f7eb0cc3d942bf0a5e6ecf1d46ea32d66bd3a3035a
+    name: postgres-crd-v2-chart
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/postgres-crd-v2-chart-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.5570323-05:00"
+    description: A Helm chart for Postgres Operator
+    digest: 9429bdeba93f8ca504892eb9412143c941d68ffa9e7e89a9c6782d63d674bb24
     name: postgres-crd-v2-chart
     urls:
     - https://github.com/cloud-ark/operatorcharts/blob/master/postgres-crd-v2-chart-0.0.2.tgz
     version: 0.0.2
-generated: 2018-10-24T19:02:34.273117087-05:00
+  stash:
+  - apiVersion: v2
+    appVersion: 0.8.4
+    created: "2021-02-02T01:19:42.5590627-05:00"
+    description: Stash by AppsCode - Backup your Kubernetes Volumes
+    digest: 23c8baf062c750556ba7ffb58e8ca7d3d2cdc9e3a6d2eb047653e48397663ca2
+    home: https://github.com/appscode/stash
+    icon: https://cdn.appscode.com/images/icon/stash.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash
+    sources:
+    - https://github.com/appscode/stash
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/stash-0.8.6.tgz
+    version: 0.8.6
+  - apiVersion: v1
+    appVersion: 0.8.4
+    created: "2021-02-02T01:19:42.564063-05:00"
+    description: Stash by AppsCode - Backup your Kubernetes Volumes
+    digest: 2f9c1d49201e494631ee816eca9a49355b5863e8b01df527e2f9c2ca51b4debb
+    home: https://github.com/appscode/stash
+    icon: https://cdn.appscode.com/images/icon/stash.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash
+    sources:
+    - https://github.com/appscode/stash
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/stash-operator-chart-0.8.5.tgz
+    version: 0.8.5
+  - apiVersion: v1
+    appVersion: 0.8.4
+    created: "2021-02-02T01:19:42.5620625-05:00"
+    description: Stash by AppsCode - Backup your Kubernetes Volumes
+    digest: ec47c7e586ded13b9699782bb5fce9186aabd279b13be9b950dd9bb74d7c3e98
+    home: https://github.com/appscode/stash
+    icon: https://cdn.appscode.com/images/icon/stash.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash
+    sources:
+    - https://github.com/appscode/stash
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/stash-operator-chart-0.8.4.tgz
+    version: 0.8.4
+  - apiVersion: v1
+    appVersion: 0.8.3
+    created: "2021-02-02T01:19:42.5600535-05:00"
+    description: Stash by AppsCode - Backup your Kubernetes Volumes
+    digest: 912aba273c02d38a177b68862c3ffdfbff9b776202c38df45728705be48a16bc
+    home: https://github.com/appscode/stash
+    icon: https://cdn.appscode.com/images/icon/stash.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash
+    sources:
+    - https://github.com/appscode/stash
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/stash-operator-chart-0.8.3.tgz
+    version: 0.8.3
+  teamresources:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-02-02T01:19:42.564063-05:00"
+    description: A Helm chart for Kubernetes
+    digest: cf3804712c194e2de1e9d7befe8590a1952b35197da55dfdde2716985c9c46be
+    name: teamresources
+    urls:
+    - https://github.com/cloud-ark/operatorcharts/blob/master/teamresources-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-02-02T01:19:42.5260321-05:00"
